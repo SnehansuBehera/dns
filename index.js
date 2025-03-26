@@ -38,6 +38,6 @@ server.on("message", (msg, rinfo) => {
   })
 });
 
-server.bind(PORT,"127.0.0.1", () => {
+server.bind(PORT,"0.0.0.0", () => {
   console.log(`UDP server listening on port ${PORT}`);
 })
