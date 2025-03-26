@@ -2,7 +2,7 @@ import dgram from "node:dgram";
 import dnsPacket from "dns-packet";
 import { db } from "./db.js";
 const server = dgram.createSocket("udp4");
-const PORT = 53
+const PORT = 5313
 
 
 server.on("error", (err) => {
